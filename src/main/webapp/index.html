@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Hello,this is a demo for register and login</h1>
+<!--<form action="http://localhost:8080/LoginDemo/register" method="post">-->
+<!--    <input type="text" name="username"><br>-->
+<!--    <input type="password" name="password"><br>-->
+<!--    <input type="submit">-->
+<!--</form>-->
+<button onclick="GoToLoginPage()" id="login">Login</button>
+<button onclick="GoToRegPage()" id="reg">Register</button>
+</body>
+<script>
+    function GoToLoginPage(){
+        window.location = "http://localhost:8080/LoginDemo/login.html";
+    }
+    function GoToRegPage(){
+        window.location = "http://localhost:8080/LoginDemo/regist.html";
+    }
+</script>
+</html>
